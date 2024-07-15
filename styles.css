@@ -356,6 +356,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+
 /* ======================== Media Queries ======================== */
 
 /* Tablets */
@@ -406,28 +407,17 @@ body{
         margin: 5%;
         text-align: center;
     }
-    .text-content h2,h1,p{
-        margin-top: -2%;
-    }
     .contact-img {
+        width: 100%;
         margin: 5% 0;
-        height: 290px;
-        width: 85%;
-        margin-top: -65%;
     }
     .contact-button {
         width: 100%;
         margin: 20px 0;
-        /**/
-        margin-top: 55%;
     }
-
     .left-text, .right-text {
-        margin:5%;
+        margin: 5%;
         text-align: center;
-    }
-    .left-text h3{
-        margin-top: 10%
     }
     .whatwedo {
         margin: 5%;
@@ -437,41 +427,21 @@ body{
         margin: 0;
     }
     .imgpro-container img {
-        /* margin: 0 auto; */
-        width: 110%;
-        height: 250px;
-        object-fit: cover;
+        width: 100%;
+        margin: 0 auto;
     }
-    .slide-image{
-        border-radius: 2px;
-        height: 280px;
-    }
-    
-    .content-item{
-        border: 1px solid #ddd;
-        padding-top: 5%;
-    }
-    .content-item h3{
-        margin-top: -5%;
-        font-size: 0.8rem;
-    }
-    .content-item p{
-        margin-top: -1%;
-        font-size: 0.8rem;
+    .content-item {
+        margin: 5%;
     }
     .highlight h3, .highlight h1 {
         text-align: center;
         margin-left: 0;
     }
     .card-container {
-        /* flex-direction: column; */
+        flex-direction: column;
         align-items: center;
-        /**/
-        margin-top: 26%;
-        flex-direction: row;
     }
     .card {
         width: 80%;
     }
 }
-
